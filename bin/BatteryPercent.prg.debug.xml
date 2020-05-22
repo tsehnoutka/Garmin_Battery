@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<pcToLineNum>
+<entry filename="C:\\Users\\tim\\workspace\\BatteryPercent\\source\\BatteryPercentView.mc" lineNum="11" pc="268435456" symbol="initialize"/>
+<entry filename="C:\\Users\\tim\\workspace\\BatteryPercent\\source\\BatteryPercentView.mc" lineNum="12" pc="268435460" symbol="initialize"/>
+<entry filename="C:\\Users\\tim\\workspace\\BatteryPercent\\source\\BatteryPercentView.mc" lineNum="13" pc="268435524" symbol="initialize"/>
+<entry filename="C:\\Users\\tim\\workspace\\BatteryPercent\\source\\BatteryPercentView.mc" lineNum="17" pc="268435543" symbol="onLayout"/>
+<entry filename="C:\\Users\\tim\\workspace\\BatteryPercent\\source\\BatteryPercentView.mc" lineNum="18" pc="268435547" symbol="onLayout"/>
+<entry filename="C:\\Users\\tim\\workspace\\BatteryPercent\\source\\BatteryPercentView.mc" lineNum="24" pc="268435585" symbol="onShow"/>
+<entry filename="C:\\Users\\tim\\workspace\\BatteryPercent\\source\\BatteryPercentView.mc" lineNum="28" pc="268435590" symbol="onUpdate"/>
+<entry filename="C:\\Users\\tim\\workspace\\BatteryPercent\\source\\BatteryPercentView.mc" lineNum="30" pc="268435594" symbol="onUpdate"/>
+<entry filename="C:\\Users\\tim\\workspace\\BatteryPercent\\source\\BatteryPercentView.mc" lineNum="31" pc="268435634" symbol="onUpdate"/>
+<entry filename="C:\\Users\\tim\\workspace\\BatteryPercent\\source\\BatteryPercentView.mc" lineNum="32" pc="268435646" symbol="onUpdate"/>
+<entry filename="C:\\Users\\tim\\workspace\\BatteryPercent\\source\\BatteryPercentView.mc" lineNum="38" pc="268435744" symbol="onHide"/>
+<entry filename="C:\\Users\\tim\\workspace\\BatteryPercent\\source\\BatteryPercentApp.mc" lineNum="5" pc="268435749" symbol="initialize"/>
+<entry filename="C:\\Users\\tim\\workspace\\BatteryPercent\\source\\BatteryPercentApp.mc" lineNum="6" pc="268435753" symbol="initialize"/>
+<entry filename="C:\\Users\\tim\\workspace\\BatteryPercent\\source\\BatteryPercentApp.mc" lineNum="10" pc="268435772" symbol="onStart"/>
+<entry filename="C:\\Users\\tim\\workspace\\BatteryPercent\\source\\BatteryPercentApp.mc" lineNum="14" pc="268435777" symbol="onStop"/>
+<entry filename="C:\\Users\\tim\\workspace\\BatteryPercent\\source\\BatteryPercentApp.mc" lineNum="18" pc="268435782" symbol="getInitialView"/>
+<entry filename="C:\\Users\\tim\\workspace\\BatteryPercent\\source\\BatteryPercentApp.mc" lineNum="19" pc="268435786" symbol="getInitialView"/>
+<entry filename="Rez" lineNum="19" pc="268435824" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="21" pc="268435828" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="22" pc="268435959" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="23" pc="268436011" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="26" pc="268436063" symbol="MainLayout"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry field="true" id="8388611" symbol="Toybox"/>
+<entry id="16" symbol="sStats"/>
+<entry id="8388770" module="true" symbol="Strings"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8388640" symbol="Lang"/>
+<entry id="14" method="true" symbol="MainLayout"/>
+<entry id="8388769" module="true" symbol="Rez"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry id="17" symbol="bat"/>
+<entry id="8389115" symbol="mMessage"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry field="true" id="15" symbol="AppName"/>
+<entry id="9" object="true" symbol="BetteryPercentApp"/>
+<entry field="true" id="13" symbol="LauncherIcon"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry id="8389065" symbol="locY"/>
+<entry id="8" object="true" symbol="BatteryPercentView"/>
+<entry id="8389064" symbol="locX"/>
+<entry id="8388771" module="true" symbol="Drawables"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry field="true" id="12" symbol="id_monkey"/>
+<entry id="11" module="true" symbol="Layouts"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry id="8389345" symbol="rezId"/>
+<entry id="8389063" symbol="identifier"/>
+<entry id="10" module="true" symbol="Menus"/>
+<entry id="8388772" module="true" symbol="Fonts"/>
+</symbolTable>
+<localVars>
+<entry endPc="268436080" name="rez_cmp_local_bitmap_id_monkey" stackId="2" startPc="268435828"/>
+</localVars>
+<annotations/>
+<functions>
+<functionEntry name="initialize" parent="BatteryPercentView">
+<documentation/>
+</functionEntry>
+<functionEntry name="onLayout" parent="BatteryPercentView">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Load your resources here<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="onShow" parent="BatteryPercentView">
+<documentation><![CDATA[<div class="description"> Called when this View is brought to the foreground. Restore<br/> the state of this View and prepare it to be shown. This includes<br/> loading resources into memory.<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="onUpdate" parent="BatteryPercentView">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Update the view<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="onHide" parent="BatteryPercentView">
+<documentation><![CDATA[<div class="description"> Called when this View is removed from the screen. Save the<br/> state of this View here. This includes freeing resources from<br/> memory.<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="initialize" parent="BetteryPercentApp">
+<documentation/>
+</functionEntry>
+<functionEntry name="onStart" parent="BetteryPercentApp">
+<param id="state"/>
+<documentation><![CDATA[<div class="description"> onStart() is called on application start up<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="onStop" parent="BetteryPercentApp">
+<param id="state"/>
+<documentation><![CDATA[<div class="description"> onStop() is called when your application is exiting<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="getInitialView" parent="BetteryPercentApp">
+<documentation><![CDATA[<div class="description"> Return the initial view of your application here<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="MainLayout" parent="Layouts">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+</functionEntry>
+</functions>
+</debugInfo>
